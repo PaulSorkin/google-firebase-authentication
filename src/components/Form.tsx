@@ -9,7 +9,10 @@ const Form: FC<FormProps> = ({title, handleClick}) => {
     const [email, setEmail] = useState('')
     const [pass, setPass] = useState('')
     return (
-        <form className="form">
+        <form className="form" onSubmit={(e) => {
+            e.preventDefault();
+            handleClick(email, pass)
+        }}>
             <div className="form-control">
                 <label htmlFor="email">Email:</label>
                 <input

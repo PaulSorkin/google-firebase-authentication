@@ -9,12 +9,14 @@ const HomePage = () => {
     const dispatch = useAppDispatch();
 
     return isAuth ? (
-        <div>
+        <div className="container">
             <h1>Welcome</h1>
 
-            <button
-            onClick={() => dispatch(removeUser())}
-            >Log out from {email}</button>
+            <div className="form-actions"   >
+                <button
+                    onClick={() => dispatch(removeUser())}
+                >Log out from {email}</button>
+            </div>
         </div>
     ) : (
         <Navigate to="/login" />
