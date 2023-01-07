@@ -4,8 +4,8 @@ import {Login} from "../components/Login";
 
 const LoginPage = () => {
     return (
-        <div>
-            <h1>Login</h1>
+        <div className="container">
+            <h1>Sign in</h1>
             <Login />
             <p>
                 Or <Link to="/register">Sign up</Link>

@@ -4,7 +4,7 @@ import {SignUp} from "../components/SignUp";
 
 const RegisterPage = () => {
     return (
-        <div>
+        <div className="container">
             <h1>Sign up</h1>
             <SignUp />
             <p>
