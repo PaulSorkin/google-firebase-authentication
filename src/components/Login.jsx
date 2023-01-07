@@ -23,7 +23,7 @@ const Login = () => {
             .catch(() => alert("Invalid user"))
     }
     return (
-        <Form title="sign in" handleClick={handleLogin} />
+        <Form title="Sign in" handleClick={handleLogin} />
     );
 };
 

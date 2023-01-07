@@ -24,7 +24,7 @@ const SignUp = () => {
     }
 
     return (
-        <Form title="reister" handleClick={handleRegister} />
+        <Form title="Sign up" handleClick={handleRegister} />
     );
 };
 
