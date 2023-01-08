@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/google-firebase-authentication/static/css/main.0454c676.css",
+    "main.js": "/google-firebase-authentication/static/js/main.eaf06051.js",
+    "index.html": "/google-firebase-authentication/index.html",
+    "main.0454c676.css.map": "/google-firebase-authentication/static/css/main.0454c676.css.map",
+    "main.eaf06051.js.map": "/google-firebase-authentication/static/js/main.eaf06051.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0454c676.css",
+    "static/js/main.eaf06051.js"
+  ]
+}
