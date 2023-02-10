@@ -10,6 +10,6 @@ See the server response in the browser console.
 
 - TypeScript
 
--Redux-toolkit
+- Redux-toolkit
 
 - Firebase
